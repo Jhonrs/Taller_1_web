@@ -1,0 +1,48 @@
+.contentEs{
+    background-color: #3E434D;
+    height: 700px;
+}
+.content__publicity{
+display: flex;
+}
+.content__container{
+    background-color: lightgrey;
+    width: 100%;
+    height: 616px;
+
+
+}
+.content__img{
+    background-color: black;
+    width: 100%;
+    height: 616px;
+}
+
+.content__btn{
+    background-color: white;
+    width: 250px;
+    height: 80px;
+    margin: 450px 250px;
+    border-radius: 20px;
+
+}
+
+
+.content__article{
+    display: flex;
+    width: 500px;
+    height: 80px;
+    border-radius: 9px;
+}
+.content__info{
+    background-color: red;
+    width: 100%;
+    height: 80px;
+    border-radius: 0px 9px;
+}
+.content__articleImg{
+    background-color: red;
+    width: 100%;
+    height: 80px;
+    border-radius: 0px 9px 9;
+}

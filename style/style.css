@@ -1,0 +1,131 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+}
+
+.mainHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3E434D;
+  height: 70px;
+  color: #C4C4C4;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px;
+}
+
+.headerNav__logo {
+  width: 140px;
+  height: 35px;
+  background-color: #ffffff;
+}
+
+.headerNav__menu {
+  margin: 10px 70px;
+}
+
+.headerNav__link {
+  text-decoration: none;
+  color: #C4C4C4;
+  margin: 70px;
+  font-size: 20px;
+}
+
+.headerNav__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerNav__input {
+  border-radius: 9px;
+  background-color: #3E434D;
+  width: 180px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.headerNav__input::-webkit-input-placeholder {
+  padding: 5px;
+}
+
+.headerNav__input:-ms-input-placeholder {
+  padding: 5px;
+}
+
+.headerNav__input::-ms-input-placeholder {
+  padding: 5px;
+}
+
+.headerNav__input::placeholder {
+  padding: 5px;
+}
+
+.headerNav__btnSearch {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+.contentEs {
+  background-color: #3E434D;
+  height: 700px;
+}
+
+.content__publicity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content__container {
+  background-color: lightgrey;
+  width: 100%;
+  height: 616px;
+}
+
+.content__img {
+  background-color: black;
+  width: 100%;
+  height: 616px;
+}
+
+.content__btn {
+  background-color: white;
+  width: 250px;
+  height: 80px;
+  margin: 450px 250px;
+  border-radius: 20px;
+}
+
+.content__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  height: 80px;
+  border-radius: 9px;
+}
+
+.content__info {
+  background-color: red;
+  width: 100%;
+  height: 80px;
+  border-radius: 0px 9px;
+}
+
+.content__articleImg {
+  background-color: red;
+  width: 100%;
+  height: 80px;
+  border-radius: 0px 9px 9;
+}
+/*# sourceMappingURL=style.css.map */
