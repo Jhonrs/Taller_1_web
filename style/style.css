@@ -226,4 +226,8 @@ body {
 .footer__title {
   padding-bottom: 30px;
 }
+
+.footer__icon {
+  margin: 0px 5px;
+}
 /*# sourceMappingURL=style.css.map */
