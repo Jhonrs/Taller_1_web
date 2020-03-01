@@ -67,6 +67,27 @@ text-align: center;
 }
 
 .content__articleproductsinfo{
-    width: 55%;
-    background-color: red;
+    width: 55%; 
+}
+
+.content__texttitle{
+font-size: 12px;
+padding: 10px 20px;
+text-align: initial;
+}
+
+.content__textinfo{
+    font-size: 11px;
+    padding: 0px 20px;
+    text-align: initial;   
+    line-height: 30px; 
+}
+
+.content__articleproductimage{
+    width: 45%;
+    height: 100%;
+    background-image: url("/img/zapatillas.png");
+    background-size: cover;
+    border-radius: 0px 10px 10px 0px;
+    
 }
