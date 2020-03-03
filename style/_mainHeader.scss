@@ -8,7 +8,7 @@
 
 .header__nav{
     display: flex;
-    padding: 16px;
+    margin: auto;
 }
 
 .headerNav__logo{
@@ -18,13 +18,13 @@
 }
 
 .headerNav__menu{
- margin: 10px 70px;
+ margin-right: end;
 }
 
 .headerNav__link{
     text-decoration: none;
     color: #C4C4C4;
-    margin: 70px;
+    margin: 10px 70px;
     font-size: 20px;
 }
 
