@@ -3,16 +3,16 @@
     height: 330px;
     background-color: #1B1F28;
     display: flex;
-    margin-top: 95px;
+    margin-top: 50px;
     color: white;
-    padding: 40px 10px;
+     
 }
 
 .footer__container{
     display: flex;
     flex-direction: column;
     width: 25%;
-    padding: 0px 30px;
+    padding: 40px 30px;
     & a{
         text-decoration: none;
         color: white;
@@ -28,5 +28,5 @@
 
 
 .footer__icon{
-    margin: 0px 5px;
+    margin: 30px 5px;
 }
