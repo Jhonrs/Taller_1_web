@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("/img/fondo.svg");
+  background-image: url("../img/fondo.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -352,7 +352,7 @@ body {
   background-color: white;
 }
 
-.containertVideo__input {
+.containerVideo__input {
   position: absolute;
   right: 0px;
   margin-top: 45%;
