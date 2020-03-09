@@ -318,8 +318,9 @@ body {
 }
 
 .containerInt__Img {
-  width: 50%;
+  width: 40%;
   height: 100%;
+  margin: auto 40px;
 }
 
 .containerInt__options {
@@ -357,28 +358,43 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.container__colorOne {
+.btn__color {
   width: 50px;
   height: 50px;
   margin: 5px;
+  border: none;
 }
 
-.container__colorOne--1 {
-  background-color: red;
+.btn__color--1 {
+  background-color: #E11237;
 }
 
-.container__colorOne--2 {
+.btn__color--2 {
   background-color: gray;
 }
 
-.container__colorOne--3 {
+.btn__color--3 {
   background-color: black;
 }
 
-.container__colorOne--4 {
+.btn__color--4 {
   background-color: lightgrey;
+}
+
+.btn__color--5 {
+  background-color: #923758;
+}
+
+.btn__color--6 {
+  background-color: #5995A3;
+}
+
+.btn__color--7 {
+  background-color: #292453;
 }
 
 .container__optionTwo {
@@ -386,40 +402,6 @@ body {
   height: 50%;
   text-align: center;
   margin-top: 0px;
-}
-
-.container__colorTwo {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-}
-
-.container__colorTwo--1 {
-  background-color: #8B6E35;
-}
-
-.container__colorTwo--2 {
-  background-color: #B3B3B5;
-}
-
-.container__colorTwo--3 {
-  background-color: #923758;
-}
-
-.container__colorTwo--4 {
-  background-color: #5995A3;
-}
-
-.container__colorTwo--5 {
-  background-color: #292453;
-}
-
-.container__colorTwo--6 {
-  background-color: #616832;
-}
-
-.container__colorTwo--7 {
-  background-color: #814040;
 }
 
 .content__video {
