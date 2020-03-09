@@ -104,11 +104,19 @@
 .content__gallery{
   display: flex;
   width: 100%;
-  justify-content: center;
+  flex-direction: column;
+ align-items: center;
   margin-top: 150px;
 }
 
+.content__galleryTittle{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
 .content__imgGallery{
+  margin-top: 40px;
   width: 1100px;
   height: 600px;  
   background-color: $container-color;
@@ -116,6 +124,7 @@
   display: flex;
   
 }
+
 
 .content__imgGalleryitemcol1{
   width: 33%;
