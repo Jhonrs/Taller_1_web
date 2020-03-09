@@ -7,7 +7,7 @@ console.log(btnChange.length);
 function iterateButtons(btn, index) {
 
     function handleClickColors() {
-        console.log("hola");
+        console.log("change");
         firstChange.setAttribute('src','./img/zapato_'+(index)+".png");
     }
 
