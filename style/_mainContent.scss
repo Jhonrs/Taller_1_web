@@ -1,4 +1,3 @@
-
 .contentEs {
   height: 700px;
 }
@@ -87,15 +86,15 @@
   border-radius: 0px 10px 10px 0px;
 }
 
-.content__feature{
+.content__feature {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 150px;
 }
 
-.containerFeature__info{
-  width: 33.3%;
+.containerFeature__info {
+  width: 100%;
   height: 100%;
   text-align: center;
   margin-top: 50px;
@@ -103,196 +102,223 @@
   flex-direction: column;
 }
 
-.content__containerFeature{
-  width: 1100px;
-  height: 500px;  
+.content__containerFeature {
+  width: 350px;
+  height: 500px;
   background-color: $container-color;
   border-radius: 10px;
   display: flex;
+  text-align: center;
+  margin: 0px 17px;
+  &--1 {
+    background-image: url(../img/flexibility.png);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-size: cover;
   }
+  &--2 {
+    background-image: url(../img/support.png);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-size: cover;
+  }
+  &--3 {
+    background-image: url(../img/ligth.png);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-size: cover;
+  }
+}
 
-.content__gallery{
+.feature__text {
+  text-align: center;
+  margin: 30px 20px;
+}
+
+.content__gallery {
   display: flex;
   width: 100%;
   flex-direction: column;
- align-items: center;
+  align-items: center;
   margin-top: 150px;
 }
 
-.content__galleryTittle{
+.content__galleryTittle {
   text-align: center;
   color: white;
   font-size: 40px;
 }
 
-.content__imgGallery{
+.content__imgGallery {
   margin-top: 40px;
   width: 1100px;
-  height: 600px;  
+  height: 600px;
   background-color: $container-color;
   border-radius: 10px;
   display: flex;
-  
 }
 
-
-.content__imgGalleryitemcol1{
+.content__imgGalleryitemcol1 {
   width: 33%;
   height: 100%;
   display: flex;
   flex-direction: column;
-
 }
 
-.content__imgGalleryitemcol2{
+.content__imgGalleryitemcol2 {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-
 }
 
-
-.imgGallery--1{
+.imgGallery--1 {
   border-radius: 10px 0 0 0;
- 
 }
 
-.imgGallery--2{
+.imgGallery--2 {
   height: 60%;
-
 }
 
-.imgGallery--3{
-height: 100%;
-border-radius: 0 0 0 10px;
+.imgGallery--3 {
+  height: 100%;
+  border-radius: 0 0 0 10px;
 }
 
-.imgGallery--4{
-height: 40%;
+.imgGallery--4 {
+  height: 40%;
 }
 
-.imgGallery--5{
+.imgGallery--5 {
   height: 100%;
   width: 100%;
   border-radius: 0 10px 10px 0;
 }
 
-.content__specification{
+.content__specification {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 150px;
 }
 
-.content__specificInfo{
+.content__specificInfo {
   width: 1100px;
-  height: 500px;  
+  height: 500px;
   background-color: $container-color;
   border-radius: 10px;
   display: flex;
 }
 
-.container__specificImg{
-width: 50%;
-height: 100%;
+.container__specificImg {
+  width: 50%;
+  height: 100%;
 }
 
-.specific__Img{
+.specific__Img {
   width: 100%;
   height: 100%;
   border-radius: 10px 0 0 10px;
 }
 
-.specific__info{
-  margin: 100px 10px 10px 0px ;
+.specific__info {
+  margin: 100px 10px 10px 0px;
   width: 50%;
   text-align: center;
   line-height: 60px;
 }
 
-.specific__text{
+.specific__text {
   font-size: 20px;
-  
 }
 
-.content__interaction{
+.content__interaction {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 150px;
 }
 
-.content__containerInt{
+.content__containerInt {
   width: 1100px;
-  height: 500px;  
+  height: 500px;
   background-color: $container-color;
   border-radius: 10px;
   display: flex;
-  
 }
 
-.containerInt__Img{
- width: 40%;
- height: 100%;
- margin: auto 40px;
+.containerInt__Img {
+  width: 40%;
+  height: 100%;
+  margin: auto 40px;
 }
 
-.containerInt__options{
-display: flex;
-flex-direction: column;
-justify-content: center;
-width: 100%;
+.containerInt__options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
-.container__optionOne{
+.container__optionOne {
   width: 100%;
   height: 25%;
   text-align: center;
   margin-top: 80px;
 }
-.container__optionText{
+.container__optionText {
   font-size: 20px;
 }
 
-.container__color{ 
-width: 100%;
-height: 100%;
-display: flex;
-justify-content: center;
-margin-top: 10px;
-flex-wrap: wrap;
+.container__color {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
 }
 
-.btn__color{
-width: 50px;
-height: 50px;
-margin: 5px;
-border: none;
+.btn__color {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
 
-&--1{background-color: #E11237;}
-&--2{background-color: gray;}
-&--3{background-color: black;}
-&--4{background-color: lightgrey;}
-&--5{background-color: #923758;}
-&--6{background-color: #5995A3;}
-&--7{background-color: #292453;}
+  &--1 {
+    background-color: #e11237;
+  }
+  &--2 {
+    background-color: gray;
+  }
+  &--3 {
+    background-color: black;
+  }
+  &--4 {
+    background-color: lightgrey;
+  }
+  &--5 {
+    background-color: #923758;
+  }
+  &--6 {
+    background-color: #5995a3;
+  }
+  &--7 {
+    background-color: #292453;
+  }
 }
 
-.container__optionTwo{
-width: 100%;
-height: 50%;
-text-align: center;
-margin-top: 0px;
-
+.container__optionTwo {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  margin-top: 0px;
 }
 
-
-  
-
-  
-  
-.content__video{
+.content__video {
   display: flex;
   width: 100%;
   height: 700px;
@@ -300,22 +326,20 @@ margin-top: 0px;
   margin-top: 150px;
 }
 
-.content__containerVideo{
+.content__containerVideo {
   width: 1100px;
-  height: 500px;  
+  height: 500px;
   background-color: $container-color;
   border-radius: 10px;
   position: relative;
 }
 
-
-.containerVideo__trailer{
-width: 1100px;
+.containerVideo__trailer {
+  width: 1100px;
   border-radius: 10px;
-  
 }
 
-.containerVideo__trailerText{
+.containerVideo__trailerText {
   position: absolute;
   right: 0px;
   bottom: 5%;
@@ -327,11 +351,10 @@ width: 1100px;
   background-color: $container-color;
 }
 
-
-.containerVideo__input{
+.containerVideo__input {
   position: absolute;
   right: 0px;
-margin-top: 45%;
+  margin-top: 45%;
   width: 400px;
   height: 20px;
   padding: 20px;
@@ -339,10 +362,3 @@ margin-top: 45%;
   border-radius: 10px 0 0 10px;
   background-color: $container-color;
 }
-
-
-
-
-
-
-
